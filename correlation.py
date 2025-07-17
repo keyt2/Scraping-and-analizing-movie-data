@@ -25,9 +25,9 @@ def main():
     # visualization
     plt.figure(figsize=(15, 8))
     sns.barplot(x=genre_ratings_df.values, y=genre_ratings_df.index)
-    plt.xlabel('Średnia ocena')
-    plt.ylabel('Gatunek')
-    plt.title('Średnia ocena filmów wg gatunku')
+    plt.xlabel('Average rating')
+    plt.ylabel('Genre')
+    plt.title('Average rating by genre')
     plt.show()
 
 if __name__ == "__main__":
